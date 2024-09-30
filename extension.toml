@@ -1,0 +1,12 @@
+id = "protobuf"
+name = "Protobuf LSP"
+description = "Protobuf LSP support"
+version = "0.0.1"
+schema_version = 1
+authors = ["prskr <peter.kurfer@gmail.com>"]
+repository = "https://github.com/prskr/zed-protobuf"
+
+[language_servers.protobuf-ls]
+name = "Protobuf Language Server"
+language = "protobuf-ls"
+languages = ["proto"]
